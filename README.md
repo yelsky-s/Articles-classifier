@@ -5,7 +5,11 @@
 
 Article from web_classifier.ipynb file: 
  The abstracts were abtained from the web by the means of webscraping with Requests and BeautifulSoup. Te abstract text then is proccessed and tokenized using Python NLTK library.
- 
+
+![image](https://user-images.githubusercontent.com/101993270/216041258-5ff39104-4a8d-4c02-b6c1-fcc27b3b36d5.png)
+
+ ![image](https://user-images.githubusercontent.com/101993270/216041021-b6622320-78a7-4033-a043-73bfea9e4ef7.png)
+
  ****
 
 article classifier.ipynb  file:
