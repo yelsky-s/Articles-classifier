@@ -4,11 +4,17 @@
   Algorithm uses python NLTK and Gensim (LDA - Latent Dirichlet Allocation) packages.
 
 Article from web_classifier.ipynb file: 
- The abstracts were abtained from the web by the means of webscraping with Requests and BeautifulSoup. Te abstract text then is proccessed and tokenized using Python NLTK library.
+ The abstracts were abtained from the web by the means of webscraping with Requests and BeautifulSoup. The abstract text then is proccessed and tokenized using Python NLTK library.
 
+Model was built with num_topics parameter equal to 4.
 ![image](https://user-images.githubusercontent.com/101993270/216041258-5ff39104-4a8d-4c02-b6c1-fcc27b3b36d5.png)
+Out of the classified articles, the model detected 43 that belong to cluster 1, 40 to custer 2, 29 - cluster number 3 and 40 to cluster 4.
 
+Visualization of the LDA model results was made using pyLDAvis.gensim_models. Below metrics for topic 2 is shown:
  ![image](https://user-images.githubusercontent.com/101993270/216041021-b6622320-78a7-4033-a043-73bfea9e4ef7.png)
+
+And here is part of the table with articles that was clustered into topic number 2:
+![image](https://user-images.githubusercontent.com/101993270/216043463-271cf286-b0a8-45b2-81ce-48ef07371886.png)
 
  ****
 
