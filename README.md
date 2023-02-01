@@ -1,14 +1,14 @@
 # Articles-classifier
- Scientific publications usually specialize in a relatively broad topics, like internal medicine, partical physics, biology etc. Readers of those publications are often interested in a narrower subject of a respective topics (which can be subcategorized further).
-  This project attempts to sub-categorize a broader geoscience publications topicsfrom 2 publications: Geology and Jornal of Hydrology, based on each individual article's abstract it recent issues of those jornals. 
+ Scientific publications usually specialize in a relatively broad topics, like internal medicine, particle physics, biology etc. Readers of those publications are often interested in a narrower subject of a respective topics (which can be subcategorized further).
+  This project attempts to sub-categorize a broader geoscience publications topicsfrom 2 publications: Geology and Journal of Hydrology, based on each individual article's abstract it recent issues of those journals. 
   Algorithm uses python NLTK and Gensim (LDA - Latent Dirichlet Allocation) packages.
 
 Article from web_classifier.ipynb file: 
- The abstracts were abtained from the web by the means of webscraping with Requests and BeautifulSoup. The abstract text then is proccessed and tokenized using Python NLTK library.
+ The abstracts were obtained from the web by the means of web scraping with Requests and BeautifulSoup. The abstract text then is processed and tokenized using Python NLTK library.
 
 Model was built with num_topics parameter equal to 4.
 ![image](https://user-images.githubusercontent.com/101993270/216041258-5ff39104-4a8d-4c02-b6c1-fcc27b3b36d5.png)
-Out of the classified articles, the model detected 43 that belong to cluster 1, 40 to custer 2, 29 - cluster number 3 and 40 to cluster 4.
+Out of the classified articles, the model detected 43 that belong to cluster 1, 40 to cluster 2, 29 - cluster number 3 and 40 to cluster 4.
 
 Visualization of the LDA model results was made using pyLDAvis.gensim_models. Below metrics for topic 2 is shown:
  ![image](https://user-images.githubusercontent.com/101993270/216041021-b6622320-78a7-4033-a043-73bfea9e4ef7.png)
