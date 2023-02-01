@@ -1,5 +1,5 @@
 # Articles-classifier
- Scientific publications usually specialize in a relatively broad topics, like internal medicine, partical pfysics, biology etc. Readers of those publications are often interested in a narrower subject of a respective topics (which can be subcategorized further).
+ Scientific publications usually specialize in a relatively broad topics, like internal medicine, partical physics, biology etc. Readers of those publications are often interested in a narrower subject of a respective topics (which can be subcategorized further).
   This project attempts to sub-categorize a broader geoscience publications topicsfrom 2 publications: Geology and Jornal of Hydrology, based on each individual article's abstract it recent issues of those jornals. 
   Algorithm uses python NLTK and Gensim (LDA - Latent Dirichlet Allocation) packages.
 
