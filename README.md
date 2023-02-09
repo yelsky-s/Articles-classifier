@@ -4,7 +4,11 @@
   Algorithm uses python NLTK and Gensim (LDA - Latent Dirichlet Allocation) packages.
 
 Article from web_classifier.ipynb file: 
- The abstracts were obtained from the web by the means of web scraping with Requests and BeautifulSoup. The abstract text then is processed and tokenized using Python NLTK library.
+ The abstracts were obtained from the web by the means of web scraping with Requests and BeautifulSoup. Articles were summarized using Pegasus model (a transformer abstractive summarization with a pretrained model from HuggingFace website). Below, 2 examples of a summaries are shown alongside articles abstract and title.
+![image](https://user-images.githubusercontent.com/101993270/217833368-1639e85e-d913-4e2c-8b42-f565761d3474.png)
+![image](https://user-images.githubusercontent.com/101993270/217833990-369683a2-a48c-4f38-9290-396f32221765.png)
+ 
+ The abstract text then is processed and tokenized using Python NLTK library.
 
 Model was built with num_topics parameter equal to 4.
 ![image](https://user-images.githubusercontent.com/101993270/216041258-5ff39104-4a8d-4c02-b6c1-fcc27b3b36d5.png)
